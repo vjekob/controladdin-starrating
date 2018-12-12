@@ -1,0 +1,23 @@
+{
+  "id": "2d41e362-2458-4ace-b7a5-189fdb27fc1e",
+  "name": "Vjeko.com Cool Demos - Star Rating",
+  "publisher": "Vjeko.com",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Logo.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "2.0"
+}
