@@ -9,8 +9,6 @@ page 50131 "Customer Ratings Factbox"
         {
             usercontrol(Ratings; "Customer Ratings")
             {
-                ApplicationArea = All;
-
                 trigger ControlReady();
                 begin
                     SendRating();
@@ -19,16 +17,16 @@ page 50131 "Customer Ratings Factbox"
                 trigger SaveRatings(Tag: Text; Rating: Integer);
                 begin
                     case Tag of
-                        'com':
-                            begin
-                                Rec."Communication Rating" := Rating;
-                                Rec.Modify(false);
-                            end;
-                        'pmt':
-                            begin
-                                Rec."Payments Rating" := Rating;
-                                Rec.Modify(false);
-                            end;
+                    'com' :
+                        begin
+                            Rec."Communication Rating" := Rating;
+                            Rec.Modify(false);
+                        end;
+                    'pmt' :
+                        begin
+                            Rec."Payments Rating" := Rating;
+                            Rec.Modify(false);
+                        end;
                     end;
                 end;
             }

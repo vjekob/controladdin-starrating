@@ -10,7 +10,6 @@ pageextension 50130 "CustomerListExt" extends "Customer List"
         {
             part(Ratings; "Customer Ratings Factbox")
             {
-                ApplicationArea = All;
                 SubPageLink = "No." = field ("No.");
             }
         }
